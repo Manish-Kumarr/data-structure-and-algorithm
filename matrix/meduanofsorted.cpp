@@ -42,7 +42,7 @@ int median(vector<vector<int>> &matrix, int R, int C)
 
 int main()
 {
-    vector<vector<int>> a = {{1, 3, 5},
+    vector<vector<int>> a = {{2, 3, 5},
                              {2, 6, 9},
                              {3, 6, 9}};
     cout << median(a, 3, 3);
